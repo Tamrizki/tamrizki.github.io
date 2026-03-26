@@ -277,89 +277,215 @@
       <p class="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
         Welcome to my mobile development portfolio.
       </p>
-      <div class="grid grid-cols-2 my-10 gap-5 dark:text-black">
-        <a
-          href="https://play.google.com/store/apps/details?id=evermos.evermos.com.evermos&hl=id"
-          class="block"
+
+      <div class="flex flex-col gap-12 my-10">
+        <!-- Evermos -->
+        <div
+          class="border border-gray-200 dark:border-white/20 rounded-2xl overflow-hidden bg-white/50 dark:bg-white/5 backdrop-blur-sm"
         >
-          <div
-            class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
-            style="background-image: url(&quot;./assets/evermos_app.png&quot;)"
-          >
+          <div class="flex flex-col md:flex-row">
             <div
-              class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7"
-            >
+              class="w-full md:w-72 h-48 md:h-auto bg-no-repeat bg-cover bg-center shrink-0"
+              style="
+                background-image: url(&quot;./assets/evermos_app.png&quot;);
+              "
+            ></div>
+            <div class="p-6 flex flex-col justify-between flex-1">
               <div>
-                <h2 class="font-semibold">
+                <h3 class="text-xl font-semibold dark:text-white">
                   Evermos App (Evermos / PT Setiap Hari Dipakai)
-                </h2>
-                <h2 class="text-sm font-medium">Tech Stack</h2>
-                <p class="text-sm text-gray-700">
+                </h3>
+                <h4
+                  class="text-sm font-medium mt-2 text-gray-500 dark:text-gray-400"
+                >
+                  Tech Stack
+                </h4>
+                <p class="text-sm text-gray-600 dark:text-white/70 mt-1">
                   Dart(Flutter), GetX State Management, Dio (Networking), Clean
                   Architecture with Modularization, Firebase Services,
                   GrowthBook (A/B Testing & Remote Configuration), RudderStack
                   (Analytics), AppsFlyer (Attribution, Tracking & OneLink).
                 </p>
               </div>
-              <div
-                class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition"
-              >
-                <img src="./assets/send-icon.png" alt="" class="w-5" />
+              <div class="mt-5">
+                <h4
+                  class="text-xs font-semibold uppercase tracking-wider text-gray-400 dark:text-gray-500 mb-3"
+                >
+                  Available on
+                </h4>
+                <ul class="flex flex-wrap gap-3 max-w-full">
+                  <li>
+                    <a
+                      href="https://play.google.com/store/apps/details?id=evermos.evermos.com.evermos&hl=id"
+                      target="_blank"
+                      class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-gray-300 dark:border-white/30 text-sm font-medium hover:bg-lime-100 dark:hover:bg-lime-900/30 hover:-translate-y-0.5 transition-all duration-300"
+                    >
+                      Play Store
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://apps.apple.com/id/app/evermos-reseller-dropship/id1601568866?l=id"
+                      target="_blank"
+                      class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-gray-300 dark:border-white/30 text-sm font-medium hover:bg-lime-100 dark:hover:bg-lime-900/30 hover:-translate-y-0.5 transition-all duration-300"
+                    >
+                      App Store
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://app.evermos.com/login"
+                      target="_blank"
+                      class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-gray-300 dark:border-white/30 text-sm font-medium hover:bg-lime-100 dark:hover:bg-lime-900/30 hover:-translate-y-0.5 transition-all duration-300"
+                    >
+                      Web
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-        </a>
-        <a
-          href="https://play.google.com/store/apps/details?id=id.android.kmpartner&hl=id"
-          class="block"
+        </div>
+
+        <!-- Komerce -->
+        <div
+          class="border border-gray-200 dark:border-white/20 rounded-2xl overflow-hidden bg-white/50 dark:bg-white/5 backdrop-blur-sm"
         >
-          <div
-            class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
-            style="background-image: url(&quot;./assets/komerce_app.png&quot;)"
-          >
+          <div class="flex flex-col md:flex-row">
             <div
-              class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7"
-            >
+              class="w-full md:w-72 h-48 md:h-auto bg-no-repeat bg-cover bg-center shrink-0"
+              style="
+                background-image: url(&quot;./assets/komerce_app.png&quot;);
+              "
+            ></div>
+            <div class="p-6 flex flex-col justify-between flex-1">
               <div>
-                <h2 class="font-semibold">Komerce App (Komerce)</h2>
-                <h2 class="text-sm font-medium">Tech Stack</h2>
-                <p class="text-sm text-gray-700">
-                  Kotlin, MVVM, View Binding, Retrofit 2, Clean Architecture ,
+                <h3 class="text-xl font-semibold dark:text-white">
+                  Komerce App (Komerce)
+                </h3>
+                <h4
+                  class="text-sm font-medium mt-2 text-gray-500 dark:text-gray-400"
+                >
+                  Tech Stack
+                </h4>
+                <p class="text-sm text-gray-600 dark:text-white/70 mt-1">
+                  Kotlin, MVVM, View Binding, Retrofit 2, Clean Architecture,
                   Kotlin Coroutines, XML Layouts, Gson, Dagger 2, Firebase ML
                   Kit, Coroutines, Data Binding, SQLite, SharedPreferences
                 </p>
               </div>
-              <div
-                class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition"
-              >
-                <img src="./assets/send-icon.png" alt="" class="w-5" />
+              <div class="mt-5">
+                <h4
+                  class="text-xs font-semibold uppercase tracking-wider text-gray-400 dark:text-gray-500 mb-3"
+                >
+                  Available on
+                </h4>
+                <ul class="flex flex-wrap gap-3 max-w-full">
+                  <li>
+                    <a
+                      href="https://play.google.com/store/apps/details?id=id.android.kmpartner&hl=id"
+                      target="_blank"
+                      class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-gray-300 dark:border-white/30 text-sm font-medium hover:bg-lime-100 dark:hover:bg-lime-900/30 hover:-translate-y-0.5 transition-all duration-300"
+                    >
+                      Play Store
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-        </a>
-        <a href="https://github.com/Tamrizki/FlyAway-FlameGame" class="block">
-          <div
-            class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
-            style="background-image: url(&quot;./assets/flamegame.png&quot;)"
-          >
+        </div>
+
+        <!-- FlyAway -->
+        <div
+          class="border border-gray-200 dark:border-white/20 rounded-2xl overflow-hidden bg-white/50 dark:bg-white/5 backdrop-blur-sm"
+        >
+          <div class="flex flex-col md:flex-row">
             <div
-              class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7"
-            >
+              class="w-full md:w-72 h-48 md:h-auto bg-no-repeat bg-cover bg-center shrink-0"
+              style="background-image: url(&quot;./assets/flamegame.png&quot;)"
+            ></div>
+            <div class="p-6 flex flex-col justify-between flex-1">
               <div>
-                <h2 class="font-semibold">FlyAway (FlameGame)</h2>
-                <h2 class="text-sm font-medium">Tech Stack</h2>
-                <p class="text-sm text-gray-700">
+                <h3 class="text-xl font-semibold dark:text-white">
+                  FlyAway (FlameGame)
+                </h3>
+                <h4
+                  class="text-sm font-medium mt-2 text-gray-500 dark:text-gray-400"
+                >
+                  Tech Stack
+                </h4>
+                <p class="text-sm text-gray-600 dark:text-white/70 mt-1">
                   Dart(Flutter), Flame Game Engine
                 </p>
               </div>
-              <div
-                class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition"
-              >
-                <img src="./assets/send-icon.png" alt="" class="w-5" />
+              <div class="mt-5">
+                <h4
+                  class="text-xs font-semibold uppercase tracking-wider text-gray-400 dark:text-gray-500 mb-3"
+                >
+                  Available on
+                </h4>
+                <ul class="flex flex-wrap gap-3 max-w-full">
+                  <li>
+                    <a
+                      href="https://github.com/Tamrizki/FlyAway-FlameGame"
+                      target="_blank"
+                      class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-gray-300 dark:border-white/30 text-sm font-medium hover:bg-lime-100 dark:hover:bg-lime-900/30 hover:-translate-y-0.5 transition-all duration-300"
+                    >
+                      GitHub
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-        </a>
+        </div>
+
+        <!-- Other Projects -->
+        <div
+          class="border border-gray-200 dark:border-white/20 rounded-2xl overflow-hidden bg-white/50 dark:bg-white/5 backdrop-blur-sm"
+        >
+          <div class="flex flex-col md:flex-row">
+            <div
+              class="w-full md:w-72 h-48 md:h-auto bg-no-repeat bg-cover bg-center shrink-0 bg-gradient-to-br from-slate-800 to-slate-600 dark:from-slate-700 dark:to-slate-900 flex items-center justify-center"
+            ></div>
+            <div class="p-6 flex flex-col justify-between flex-1">
+              <div>
+                <h3 class="text-xl font-semibold dark:text-white">
+                  Other Projects
+                </h3>
+                <h4
+                  class="text-sm font-medium mt-2 text-gray-500 dark:text-gray-400"
+                >
+                  Personal & Learning Projects
+                </h4>
+                <p class="text-sm text-gray-600 dark:text-white/70 mt-1">
+                  Movie Catalogue (Kotlin Clean Architecture), BacaKuy,
+                  Weather-PG, MySocmed, Al-Quran, GPS Navigation with Mapbox,
+                  and more.
+                </p>
+              </div>
+              <div class="mt-5">
+                <h4
+                  class="text-xs font-semibold uppercase tracking-wider text-gray-400 dark:text-gray-500 mb-3"
+                >
+                  Available on
+                </h4>
+                <ul class="flex flex-wrap gap-3 max-w-full">
+                  <li>
+                    <a
+                      href="https://github.com/Tamrizki?tab=repositories"
+                      target="_blank"
+                      class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-gray-300 dark:border-white/30 text-sm font-medium hover:bg-lime-100 dark:hover:bg-lime-900/30 hover:-translate-y-0.5 transition-all duration-300"
+                    >
+                      GitHub
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
